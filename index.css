@@ -1,0 +1,3 @@
+/* Minimal global stylesheet — add your custom styles here */
+:root { --bg: #ffffff; }
+body { background-color: var(--bg); }
