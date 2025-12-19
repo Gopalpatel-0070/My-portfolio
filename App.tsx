@@ -95,7 +95,7 @@ const IconButton = ({ icon: Icon, href, title }: { icon: any, href?: string, tit
     rel="noopener noreferrer"
     className="p-3 bg-white dark:bg-white/5 text-slate-600 dark:text-slate-400 rounded-xl border border-slate-200 dark:border-white/10 hover:border-primary-400 hover:text-primary-400 transition-all shadow-sm"
                 <img 
-                  src="/me.svg" 
+                  src="/gopal.jpeg" 
                   alt="Gopal Patel" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
