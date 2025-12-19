@@ -5,9 +5,14 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+      // Base path for correct asset URLs when deploying to GitHub Pages
+      base: '/My-portfolio/',
       server: {
         port: 3000,
         host: '0.0.0.0',
+      },
+      build: {
+        outDir: 'docs'
       },
       plugins: [react()],
       define: {
