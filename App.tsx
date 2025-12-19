@@ -94,12 +94,11 @@ const IconButton = ({ icon: Icon, href, title }: { icon: any, href?: string, tit
     target="_blank" 
     rel="noopener noreferrer"
     className="p-3 bg-white dark:bg-white/5 text-slate-600 dark:text-slate-400 rounded-xl border border-slate-200 dark:border-white/10 hover:border-primary-400 hover:text-primary-400 transition-all shadow-sm"
-                <img 
-                  src="/gopal.jpeg" 
-                  alt="Gopal Patel" 
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-
+    title={title}
+  >
+    <Icon size={20} />
+  </a>
+);
 const BackgroundDecor = () => (
   <div className="fixed inset-0 overflow-hidden pointer-events-none -z-10 bg-[#FCFCFC] dark:bg-[#001E2B]">
     <motion.div 
