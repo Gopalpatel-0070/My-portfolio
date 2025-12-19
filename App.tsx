@@ -296,8 +296,8 @@ const App: React.FC = () => {
             <motion.div variants={itemVariants} className="order-1 lg:order-2">
               <div className="aspect-square rounded-[3rem] overflow-hidden border border-slate-200 dark:border-white/10 shadow-2xl relative group">
                 <img 
-                  src="https://drive.google.com/file/d/1OGJAuj2gknJL2C4_XfXkdQeA62UFdIFP/view?usp=drivesdk" 
-                  alt="Work Environment" 
+                  src="/gopal.jpeg" 
+                  alt="Gopal Patel" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#001E2B] to-transparent opacity-60"></div>
